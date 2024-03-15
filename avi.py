@@ -1,29 +1,3 @@
-# EX01 Developing a Simple Webserver
-## Date: 24.02.2024
-## NAME: AVINASH T
-## REG NO: 212223230026
-
-## AIM:
-To develop a simple webserver to serve html pages.
-
-## DESIGN STEPS:
-### Step 1: 
-HTML content creation.
-
-### Step 2:
-Design of webserver workflow.
-
-### Step 3:
-Implementation using Python code.
-
-### Step 4:
-Serving the HTML pages.
-
-### Step 5:
-Testing the webserver.
-
-## PROGRAM:
-```c
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
@@ -92,11 +66,3 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-```
-
-## OUTPUT:
-![alt text](<Screenshot 2024-03-15 094532.png>)
-
-![alt text](<Screenshot 2024-03-15 213158.png>)
-## RESULT:
-The program for implementing simple webserver is executed successfully.
